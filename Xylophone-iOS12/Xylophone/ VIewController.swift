@@ -19,8 +19,27 @@ class ViewController: UIViewController{
 
     @IBAction func notePressed(_ sender: UIButton) {
         
-        
-        
+        if sender.tag == 1 {
+            print(sender.tag)
+        }
+        else if sender.tag == 2{
+            
+        }
+        else if sender.tag == 3{
+            
+        }
+        else if sender.tag == 4{
+            
+        }
+        else if sender.tag == 5{
+            
+        }
+        else if sender.tag == 6{
+            
+        }
+        else if sender.tag == 7{
+            
+        }
     }
     
   

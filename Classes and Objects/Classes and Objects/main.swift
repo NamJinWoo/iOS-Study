@@ -14,3 +14,7 @@ print(myCar.color)
 print(myCar.numberOfSeats)
 print(myCar.typeOfCar)
 
+myCar.drive()
+
+let otherCar = SelfDrivingCar()
+print(otherCar.color)

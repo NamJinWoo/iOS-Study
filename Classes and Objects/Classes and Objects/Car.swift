@@ -23,8 +23,13 @@ class Car {
     init (){
     
     }
+    
     convenience init(customerChosenColor : String){
         self.init() //very important to set default init
         color = customerChosenColor
+    }
+    
+    func drive() {
+        print("The Car is moving.")
     }
 }

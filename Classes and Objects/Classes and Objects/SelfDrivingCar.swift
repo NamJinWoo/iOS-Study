@@ -10,13 +10,14 @@ import Foundation
 
 class SelfDrivingCar : Car {
     
-    var destination : String = "1 Infinite Loop"
+    var destination : String? //this can contain nil value
     
     override func drive() {
         super.drive()
-        
-        print("driving towards " + destination)
-        
+        if let userSetDestination = destination {
+            print("driving towards " + destination!) //this means it is never empty
+            print("driving towards " + userSetDestination) //this means it is never empty
+        }
     }
     
 }

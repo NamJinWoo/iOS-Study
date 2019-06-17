@@ -10,4 +10,6 @@ import Foundation
 
 let otherCar = SelfDrivingCar()
 
+//otherCar.destination = "1 Hack way"
+
 otherCar.drive()

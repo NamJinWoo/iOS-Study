@@ -36,7 +36,7 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
-        // viewDidLoad 즉 앱이 시작할때, 뜨는 알림창을 설정.
+        // viewDidLoad 즉 앱이 시작할때, 뜨는 알림창을 설정. 
         
     }
     

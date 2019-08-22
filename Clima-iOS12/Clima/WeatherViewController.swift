@@ -116,7 +116,6 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate, Change
             // if the location is not invalid.
             locationManager.stopUpdatingLocation()
             
-            //get latitude and longitude
             let latitude = String(location.coordinate.latitude)
             let longitude = String(location.coordinate.longitude)
             let params : [String : String] = ["lat" : latitude , "lon" : longitude, "appid" : APP_ID ]

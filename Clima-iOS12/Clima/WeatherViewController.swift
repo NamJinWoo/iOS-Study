@@ -13,7 +13,6 @@ import SwiftyJSON
 
 class WeatherViewController: UIViewController, CLLocationManagerDelegate, ChangeCityDelegate {
     
-    //Constants
     let WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather"
     let APP_ID = "532a83a8b1c142e23252912ad3001908"
     /***Get your own App ID at https://openweathermap.org/appid ****/

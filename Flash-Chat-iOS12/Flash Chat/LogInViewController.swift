@@ -32,7 +32,7 @@ class LogInViewController: UIViewController {
             if error != nil{
                 print(error!)
             }else{
-                print("login successful!")
+                print("login successful!") //when successful
                 
                 self.performSegue(withIdentifier: "goToChat", sender: self)
             }

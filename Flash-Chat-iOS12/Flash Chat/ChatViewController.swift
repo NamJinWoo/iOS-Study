@@ -157,6 +157,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         let messageDB = Database.database().reference().child("Messages")
         messageDB.observe(.childAdded) { (snapshot) in
             let snapshotValue = snapshot.value as! Dictionary<String, String>
+            // set text and sender. ready to save into database.
             let text = snapshotValue["MessageBody"]!
             let sender = snapshotValue["Sender"]!
         }
